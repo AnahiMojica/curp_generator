@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elementos para tu CURP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Anahi Mojica Fernández">
+        <link href="style/bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="style/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body class="body">
+        <nav class=" nav-bar navbar navbar-expand-sm navbar-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="javascript:void">
+                    <img src="img/logoCURP.png" height="50" alt="logo" loading="lazy">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="formulario.html">Generador de CURP</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav><br>
+        <div>
+            <h1 class="encabezado txt">Elementos para generar tu CURP</h1><br>
+            <ul>
+                <li>Primera letra y la primera vocal del primer apellido</li>
+                <li>Primera letra del segundo apellido. En caso de no tener segundo apellido se coloca una X.</li>
+                <li>Primera letra del primer nombre de pilasiempre y cuando, éste no sea José o María,en cuyo caso, se tomará en cuenta el segundo nombre.</li>
+                <li>Fecha de nacimiento sin espacios en orden de año, mes y día; por ejemplo, 960917 (1996, septiembre 17).</li>
+                <li>Letra del género sexual(Ho M).</li>
+                <li>Dos letras correspondientes a la entidad de nacimiento (en caso de haber nacido fuera del país, se marca como NE, "nacido en el extranjero").</li>
+                <li>Primera consonante interna (no inicial) del primer apellido. En caso de no contar con una, colocar una X.</li>
+                <li>Primera consonante interna (no inicial) del segundo apellido. En caso de no contar con una, colocar una X.</li>
+                <li>Primera consonante interna (no inicial) del primer nombre. En caso de no contar con una, colocar una X.</li>
+                <li>Dígito del 0-9 para fechas de nacimiento hasta el año 1999 y a-z para fechas de nacimiento a partir del 2000.</li> 
+                <li>Dígito(del 0 al 9), para evitar duplicaciones.</li>
+                <li>La letra Ñ NO se asigna en la CURP, en cuyo caso, es reemplazada por una X.</li>
+                <li>alidar que las primeras cuatro letras no formen una palabra soez.En caso de formar una palabra soez, reemplazar la primera vocal con una X.</li>
+            </ul>
+        </div>
+
+
+        <div>
+            <footer class="kawaii-footer">
+                <p>@AnahiMojicaFernández</p>
+                <p>Contacto: anahifernandez2003@gmail.com</p>
+            </footer>
+        </div>
+    </body>
+</html>
